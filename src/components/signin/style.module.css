@@ -1,0 +1,123 @@
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  /* position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center; */
+}
+
+.formContainer {
+  border: 1px solid silver;
+  width: fit-content;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 10px;
+  height: fit-content;
+  background-color: #fff;
+}
+.h5 {
+  text-align: left;
+  margin-top: 5px;
+  font-size: 1.8rem;
+  color: rgb(158, 131, 208);
+}
+.header {
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgb(72, 79, 228);
+}
+.formField {
+  margin-bottom: 10px;
+}
+.formChecked {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 7px;
+  font-size: 0.8rem;
+
+  width: 300px;
+}
+.formChecked input {
+  width: 15px;
+}
+.span {
+  margin: 0 3px -6px 0;
+  color: rgb(85, 85, 80);
+  font-size: 1.5rem;
+}
+.formInput {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 0px 10px;
+  border-color: 1px solid silver;
+  transition: all 0.2s ease-in;
+}
+.formInput:focus,
+.uncompleted:focus {
+  outline: none;
+  line-height: 30px;
+  height: 30px;
+  border: 1px solid #1a73e8;
+}
+.inputGroup span {
+  padding-bottom: 10px;
+  font-size: large;
+}
+
+.uncompleted {
+  width: 300px;
+  height: fit-content;
+  text-align: left;
+  padding: 3px 10px;
+  margin: 3px 0 7px 27px;
+  transition: all 0.2s ease-in;
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+.formError {
+  display: none;
+}
+
+.formButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.formButton button {
+  background-color: rgb(72, 79, 228);
+  padding: 10px 20px;
+  margin-top: 5px;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  font-size: 0.875;
+  font-weight: 500;
+  transition: all 0.1s ease-in;
+  cursor: pointer;
+}
+
+.formButton button:hover {
+  background-color: #1260c5;
+}
+
+.formButton a {
+  color: rgb(72, 79, 228);
+  text-decoration: none;
+  transition: all 0.1s ease-in;
+  font-weight: 700;
+}
+
+.formButton a:hover {
+  color: #1260c5;
+}
